@@ -8,6 +8,8 @@ Edit "Settings.txt" to change the settings.<br>
 <br>
 The function files are generated in "results" folder.<br>
 <br>
+You can use this generator online using [Replit](https://replit.com/@risumcbe/MCBE-surface-replacer-generator).<br>
+<br>
 
 ------------------------------------------------------------
 

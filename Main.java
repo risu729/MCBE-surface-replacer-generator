@@ -206,9 +206,9 @@ class Main {
     final String execute;
     
     if (tag == null) {
-      execute = "execute @e[type=armor_stand] ~~~ fill ";
+      execute = "execute @e[type=armor_stand] ~~~ fill ~";
     } else {
-      execute = "execute @e[type=armor_stand, tag=" + tag + "] ~~~ fill ";
+      execute = "execute @e[type=armor_stand, tag=" + tag + "] ~~~ fill ~";
     }
 
     final int height = yCoords[1] - yCoords[0] +1;
@@ -265,8 +265,8 @@ class Main {
         int z2 = Math.min(z + unitLen[0][1] -1, areaCoords[3]);
         for (String rep : blockRepl) {
           commands[lines / 10000].append(
-            execute + x +" "+ yCoords[0] +" "+ z +" "
-            + x2 +" "+ yCoords[1] +" "+ z2 +" "
+            execute + x +" "+ yCoords[0] +" ~"+ z +" ~"
+            + x2 +" "+ yCoords[1] +" ~"+ z2 +" "
             + blockFill[0] + " replace " + rep + "\n");
           lines++;
         }
@@ -280,8 +280,8 @@ class Main {
             for (int z = areaCoords[1] + i; z < areaCoords[3]; z += 32) {
               for (int z2= z + unitLen[1][1] -1; z2 < z + 16; z2 += unitLen[1][1]) {
                 commands[lines / 10000].append(
-                  execute + x + " " + yCoords[0] + " " + z + " "
-                  + x2 + " " + yCoords[1] + " " + z2 + " "
+                  execute + x + " " + yCoords[0] + " ~" + z + " ~"
+                  + x2 + " " + yCoords[1] + " ~" + z2 + " "
                   + blockFill[1] + " replace " + blockFill[0] + "\n");
                 lines++;
               }

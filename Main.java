@@ -13,7 +13,9 @@ class Main {
     
     long time = System.currentTimeMillis();
 
+    /*
     memory();
+    */
     
     //read Errors.txt in errArray
     
@@ -187,7 +189,8 @@ class Main {
     } else {
       tag = null;
     }
-    
+
+    /*
     //show variables (for test)
     display("Funtion name", funcName);
     display("Replacing area corners coordinates", areaCoords);
@@ -196,6 +199,7 @@ class Main {
     display("Filling blocks names", blockFill);
     display("Armor stands tag", tag);
     memory();
+    */
 
     //set beginning of commands
 
@@ -287,9 +291,11 @@ class Main {
       }
     }
 
+    /*
     //show datas (for test)
     display("Function lines calculated", linesCalc);
     display("Function lines", lines);
+    */
 
     //generate files
 
@@ -350,7 +356,9 @@ class Main {
 
     display("Execution time", timeStr);
 
+    /*
     memory();
+    */
 
     System.out.println("The function files were generated.");
   } //The end of the main method

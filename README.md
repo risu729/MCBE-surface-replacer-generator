@@ -30,6 +30,7 @@ If you would like to replace only one column, you may write only one value.<br>
 ```0,3```<br>
 ```3```<br>
 <br>
+
 4. Write all block names you would like to replace.<br>
 Each block name must be separated by ",".<br>
 You may, but don't need to write a block metadata value.<br>
@@ -37,6 +38,7 @@ If you don’t write it, all metadata of the block name are replaced.<br>
 The block metadata value must be an integer between -1 and 15.<br>
 ```dirt, grass, bedrock, air, wool, concrete 0, concrete 15```<br>
 <br>
+
 5. Write 2 block names you would like to fill. Each block name must be separated by ",".<br>
 You may, but don’t need to write a metadata value.<br>
 If you don’t write it, the state is automatically set as 0.<br>
@@ -44,6 +46,7 @@ The block metadata value must be an integer between 0 and 15.<br>
 These blocks are also replaced.<br>
 ```stained_glass, stained_glass 8```<br>
 <br>
+
 6. Write a tag to specify armor stands executing the functions.<br>
 If it's needed, the string is automatically quoted.<br>
 You can use all characters, except a double quote.<br>

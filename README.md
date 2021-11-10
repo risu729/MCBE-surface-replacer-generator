@@ -67,4 +67,4 @@ If you don't write it, all armor stands to execute the functions.<br>
 
 ------------------------------------------------------------
 ### Copyright <br>
-This program is released under the MIT License, see LICENSE.
+This program is released under the MIT License, see [LICENSE](https://github.com/risu-minecraft/MCBE-surface-replacer-generator/blob/main/LICENSE).

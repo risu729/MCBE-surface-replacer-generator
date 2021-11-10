@@ -1,5 +1,4 @@
 #2replacesurface_b
-#2replacesurface_b
 execute @e[type=armor_stand, tag=surfacereplacer] ~~~ fill 1648 0 240 1735 3 327 stained_glass 0 replace grass -1
 execute @e[type=armor_stand, tag=surfacereplacer] ~~~ fill 1648 0 240 1735 3 327 stained_glass 0 replace stained_glass 0
 execute @e[type=armor_stand, tag=surfacereplacer] ~~~ fill 1648 0 240 1735 3 327 stained_glass 0 replace bedrock -1

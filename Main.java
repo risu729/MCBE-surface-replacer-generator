@@ -293,46 +293,48 @@ class Main {
 
     //generate files
 
-    String[] extArray = {"txt", "mcfunction"};
+    //create directories
+    Path pDir = Path.of("results", funcName);
+    Path pDirTxt = Path.of(pDir.toString(), "txt");
+    Path pDirMcf = Path.of(pDir.toString(), "mcfunction");
 
-    for (String ext : extArray) {
-      Path pDir = Path.of("results", funcName, ext);
-      
+    try {
+      Files.createDirectory(pDir);
+      Files.createDirectory(pDirTxt);
+      Files.createDirectory(pDirMcf);
+    } catch (IOException err) {
+      error(201);
+    }
+
+    //copy settings file
+    try {
+      Files.copy(Path.of("Settings.txt"), Path.of(pDir.toString(), "Settings.txt"));
+    } catch (IOException err) {
+      error(201);
+    }
+    
+    //create function files        
+    for (int i = 0; i < commands.length; i++) {
+      String abc = "abcdefghijklmnopqrstuvwxyz";
+        
+      String fileName;
+      if (commands.length == 1) {
+        fileName = funcName;
+      } else {
+        fileName = funcName + "_" + abc.charAt(i);
+      }
+        
+      commands[i].insert(0, "#" + fileName + "\n");
+          
+      Path pFileTxt = Path.of(pDirTxt.toString(), fileName + ".txt");
+      Path pFileMcf = Path.of(pDirMcf.toString(), fileName + ".mcfunction");
+
       try {
-        Files.createDirectories(pDir);
+        Files.createFile(pFileTxt);
+        Files.writeString(pFileTxt, commands[i]);
+        Files.copy(pFileTxt, pFileMcf);
       } catch (IOException err) {
         error(201);
-      }
-      
-      if (commands.length == 1) {
-        String fileName = funcName;
-        commands[0].insert(0, "#" + fileName + "\n");
-        
-        Path pFile = Path.of(pDir.toString(), fileName + "." + ext);
-
-        try {
-          Files.createFile(pFile);
-          Files.writeString(pFile, commands[0]);
-        } catch (IOException err) {
-          error(201);
-        }
-        
-      } else {
-        String abc = "abcdefghijklmnopqrstuvwxyz";
-        
-        for (int i = 0; i < commands.length; i++) {
-          String fileName = funcName + "_" + abc.charAt(i);
-          commands[i].insert(0, "#" + fileName + "\n");
-          
-          Path pFile = Path.of(pDir.toString(), fileName + "." + ext);
-
-          try {
-            Files.createFile(pFile);
-            Files.writeString(pFile, commands[i]);
-          } catch (IOException err) {
-            error(201);
-          }
-        }
       }
     }
 

@@ -1,5 +1,4 @@
 #2replacesurface_c
-#2replacesurface_c
 execute @e[type=armor_stand, tag=surfacereplacer] ~~~ fill 160 0 1888 175 3 1903 stained_glass 8 replace stained_glass 0
 execute @e[type=armor_stand, tag=surfacereplacer] ~~~ fill 160 0 1920 175 3 1935 stained_glass 8 replace stained_glass 0
 execute @e[type=armor_stand, tag=surfacereplacer] ~~~ fill 160 0 1952 175 3 1967 stained_glass 8 replace stained_glass 0

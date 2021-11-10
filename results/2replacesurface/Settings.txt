@@ -1,0 +1,6 @@
+2replacesurface
+4096
+0,3
+grass,dirt,bedrock
+stained_glass 0, stained_glass 8
+surfacereplacer

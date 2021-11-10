@@ -2,7 +2,7 @@
 
 for MCBE, made by Risu ([@risu_minecraft](https://twitter.com/risu_minecraft))<br>
 <br>
-This program generates functions to replace the world surface to show borders of chunks.<br>
+This program generates functions replacing the world surface to show borders of chunks.<br>
 <br>
 Edit "Settings.txt" to change the settings.<br>
 <br>
@@ -10,6 +10,9 @@ The function files are generated in "results" folder.<br>
 <br>
 You can use this generator online using [Replit](https://replit.com/@risumcbe/MCBE-surface-replacer-generator).<br>
 In Replit, please fork and run the generator.<br>
+<br>
+This is the link for this page.<br>
+https://github.com/risu-minecraft/MCBE-surface-replacer-generator
 <br>
 
 ------------------------------------------------------------

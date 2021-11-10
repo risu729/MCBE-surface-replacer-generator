@@ -1,0 +1,12 @@
+101:The settings file doesn't exist.
+102:The settings file is not 5 lines.
+103:Some settings are empty.
+111:The function name contains characters not allowed.
+121:The side length is not a positive multiple of 16.
+131:A Y coordinate is not an integer.
+132:A Y coordinate is smaller than -64 or larger than 319.
+133:The Y coordinates format is wrong.
+141:The replacing block names format is wrong.
+151:The filling block names format is wrong.
+161:The tag contains a double quotation.
+201:The same name function files already exist.

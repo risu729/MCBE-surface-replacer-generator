@@ -11,7 +11,7 @@ The function files are generated in "results" folder.<br>
 You can use this generator online using [Replit](https://replit.com/@risumcbe/MCBE-surface-replacer-generator).<br>
 In Replit, please fork and run the generator.<br>
 <br>
-This is the link for this page.<br>
+This is the link for GitHub.<br>
 https://github.com/risu-minecraft/MCBE-surface-replacer-generator
 <br>
 
@@ -77,25 +77,20 @@ This program is released under MIT License, see [LICENSE](https://github.com/ris
 
 ------------------------------------------------------------
 
-# 日本語訳
-(DeepL翻訳を使用しているので不正確な場合があります)
+# MCBE-surface-replacer-generator
 
-------------------------------------------------------------
-
-# MCBE-サーフェイス-リプレーサー-ジェネレーター 
-
-りすさん([@risu_minecraft](https://twitter.com/risu_minecraft))が作ったMCBE用。
+for MCBE (Minecraft統合版) by りす([@risu_minecraft](https://twitter.com/risu_minecraft))
 <br> 
-このプログラムは、チャンクの境界を示すために世界表面を置き換える関数を生成します。<br>。
-<br> <br> 
-設定を変更するには「Settings.txt」を編集してください。
-<br> <br> 
-関数ファイルは「results」フォルダに生成されます。
-<br> <br> 
-このジェネレータは、[Replit](https://replit.com/@risumcbe/MCBE-surface-replacer-generator)を使って、オンラインで使用することができます。<br>。
-レプリットでは、ジェネレーターをフォークして実行してください。
+このプログラムは、ワールドの地面を置き換えチャンク境界を示すfunctionファイルを生成します。<br>
+<br>
+設定を変更するには「Settings.txt」を編集してください。<br>
+<br>
+functionファイルは「results」フォルダに生成されます。<br>
+<br>
+このプログラムは、[Replit](https://replit.com/@risumcbe/MCBE-surface-replacer-generator)で、オンラインで使用することができます。<br>
+Replitでは、プログラムをフォークして実行してください。<br>
 <br> 
-このページへのリンクです。<br> 
+GitHubのリンクです。<br> 
 https://github.com/risu-minecraft/MCBE-surface-replacer-generator 
 <br> 
 
@@ -103,9 +98,9 @@ https://github.com/risu-minecraft/MCBE-surface-replacer-generator
 
 ### Settings.txtの書き方<br>。
 
-1. 関数名を書きます。<br>。
-名前には英数字、ピリオド、アンダースコア、ハイフン、カッコのみを使用できます。<br>。
-関数内のコマンドが10000以上の場合は、自動的に関数が分割され、(関数名)_a、(関数名)_b...というように命名されます。
+1. function名を書きます。<br>。
+英数字、ピリオド、アンダースコア、ハイフン、カッコのみを使用できます。<br>。
+function内のコマンドが10000個以上の場合は、自動的に関数が分割され、(function名)_a
 ````surfaceReplacer``<br> <br> 
 <br> <br> 
 
@@ -145,16 +140,16 @@ https://github.com/risu-minecraft/MCBE-surface-replacer-generator
 <br> ``表面リプレーサー1``<br> 
 
 ------------------------------------------------------------ 
-### 関数の使い方 <br> 
+### functionの使い方 <br>
 
-1. 表面を交換したいセンターチャンクの南西の角にアーマースタンドを召喚します。<br> 2. 
+1. 地面を置き換える範囲の中心のチャンクの南西の角に防具立てを置く。<br>
 
-2. タグを設定した場合は、そのタグを追加します。<br> 3. 
+2. タグを設定した場合は、そのタグを防具立てに追加します。<br>
 
-3. コマンドブロックを繰り返す中で、すべての関数を実行する。<br> 3. 
+3. リピートモードのコマンドブロックで、すべてのfunctionを実行する。<br>
 
-4. フライングオーバーでチャンクをロードする。<br> 5. 
+4. 飛行するなどして全てのチャンクをロードする。<br>
 
 ------------------------------------------------------------ 
 ### Copyright <br>
-このプログラムはMITライセンスで公開されています。[LICENSE](https://github.com/risu-minecraft/MCBE-surface-replacer-generator/blob/main/LICENSE)を参照してください。
+このプログラムはMITライセンスで公開されています。[LICENSE-ja](https://github.com/risu-minecraft/MCBE-surface-replacer-generator/blob/main/LICENSE-ja)を参照してください。

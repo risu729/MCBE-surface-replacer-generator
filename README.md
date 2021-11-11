@@ -40,7 +40,7 @@ If you would like to replace only one column, you may write only one value.<br>
 4. Write all block names you would like to replace.<br>
 Each block name must be separated by ",".<br>
 You may, but don't need to write a block metadata value.<br>
-If you don’t write it, all metadata of the block name are replaced.<br>
+If you set it -1, or don’t write it, all metadata blocks of the block name are replaced.<br>
 The block metadata value must be an integer between -1 and 15.<br>
 ```dirt, grass, bedrock, air, wool, concrete 0, concrete 15```<br>
 <br>
@@ -119,13 +119,14 @@ function内のコマンドが10000個以上の場合は、自動的に関数が�
 4. 置き換え元のブロックを指定します。<br>
 各ブロック名は「,」で区切ってください。<br>
 ブロックのデータ値は指定しても構いませんが、その必要はありません。<br>
-指定しなかったまたは-1とした場合は、そのブロック名のすべてのメタデータが置き換えられます。
+-指定しなかった場合は、自動的に-1にそのブロック名のすべてのデータ値のブロックが置き換えられます。<br>
 ブロックのメタデータの値は -1 から 15 までの整数でなければなりません。
 ``dirt, grass, bedrock, air, wool, concrete 0, concrete 15``<br> <br> 
 <br> 
 
-5. 埋めたいブロック名を2つ書いてください。それぞれのブロック名は「,」で区切らなければなりません。<br>。
-<br> メタデータの値を書いてもいいですが、書かなくてもいいです。
+5. 置き換えた後のブロック名を2種類指定します。
+それぞれのブロック名は「,」で区切ってください。<br>。
+ブロックのデータ値は指定しても構いませんが、その必要はありません。<br>q
 書き込まないと、自動的に状態が0になります。<br>。
 ブロックのメタデータの値は、0から15までの整数でなければなりません。
 また、これらのブロックは置き換えられます。<br> 

@@ -1,6 +1,0 @@
-2surfaceair
-4096
-0,3
-air
-stained_glass 0, stained_glass 8
-surfacereplacer

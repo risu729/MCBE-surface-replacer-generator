@@ -1,0 +1,6 @@
+2surfacebase
+4096
+0,3
+concrete 7, stained_hardened_clay 9
+stained_glass 0, stained_glass 8
+surfacereplacer

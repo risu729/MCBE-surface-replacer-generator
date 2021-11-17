@@ -297,6 +297,8 @@ class Main {
     display("Function lines", lines);
     */
 
+    display("Command lines", lines);
+
     //generate files
 
     //create directories

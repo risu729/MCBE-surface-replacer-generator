@@ -101,7 +101,7 @@ https://github.com/risu-minecraft/MCBE-surface-replacer-generator
 1. function名を書きます。<br>
 英数字、ピリオド、アンダースコア、ハイフン、カッコのみを使用できます。<br>
 function内のコマンドが10000個以上の場合は、自動的に関数が分割され、(function名)_a,(function名)_b...となります。<br>
-````surfaceReplacer```<br>
+```surfaceReplacer```<br>
 <br> 
 
 2. 地面を置き換える正方形の範囲の1辺の長さを指定します。<br>

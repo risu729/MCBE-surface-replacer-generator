@@ -153,6 +153,4 @@ function内のコマンドが10000個以上の場合は、自動的に関数が�
 
 ------------------------------------------------------------ 
 ### Copyright <br>
-このプログラムはMITライセンスで公開されています。[LICENSE-ja](https://github.com/risu-minecraft/MCBE-surface-replacer-generator/blob/main/LICENSE-ja)を参照してください。 <br>
-
-ライセンス原文は [LICENSE](https://github.com/risu-minecraft/MCBE-surface-replacer-generator/blob/main/LICENSE)を参照してください。
+このプログラムはMITライセンスで公開されています。[LICENSE](https://github.com/risu-minecraft/MCBE-surface-replacer-generator/blob/main/LICENSE)を参照してください。

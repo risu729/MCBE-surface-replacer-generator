@@ -1,0 +1,6 @@
+2chunkborders
+5008
+0
+stained_glass 0
+stained_glass 0, stained_glass 8
+owrepl
